@@ -1,15 +1,20 @@
-# Terraform
+# OpenTofu / Terraform
 .terraform/
 .terraform.lock.hcl
 
-# State files
+# Fichiers d'état
 terraform.tfstate
 terraform.tfstate.*
 
 # Crash logs
 crash.log
 crash.*.log
+*.log
 
 # Variables sensibles
 *.tfvars
 *.tfvars.json
+secrets.auto.tfvars
+
+# Fichiers temporaires 
+*.tmp
